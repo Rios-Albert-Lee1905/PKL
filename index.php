@@ -31,7 +31,7 @@
         <a href="#">Profil</a>
       <div class="dropdown-content">
         <a href="#">Visi, Misi, dan Tujuan</a>
-        <a href="#">Sekolah</a>
+        <a href="#">Sejarah Sekolah</a>
         <a href="#">Struktur Organisasi</a>
       </div>
       </div>
@@ -40,12 +40,7 @@
         <a href="#">Kesiswaan</a>
       <div class="dropdown-content">
         <a href="#">Pendaftaran Peserta Didik Baru</a>
-        <a href="#">E-Learning</a>
         <a href="#">Ekstrakurikuler</a>
-        <a href="#">Konsultasi</a>
-        <a href="#">Pengumuman</a>
-        <a href="#">Kelulusan Online</a>
-        <a href="#">Tata Tertib Sekolah</a>
         <a href="#">Pembayaran Siswa</a>
       </div>
       </div>
@@ -53,9 +48,8 @@
         <div class="dropdown">
         <a href="#">Informasi</a>
       <div class="dropdown-content">
-        <a href="#">Bantuan Dana untuk Siswa</a>
         <a href="#">Kalender Pendidikan</a>
-        <a href="#">Materi</a>
+        <a href="#">Pengumuman</a>
       </div>
       </div>
 
