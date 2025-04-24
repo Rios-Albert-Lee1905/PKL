@@ -18,7 +18,7 @@
     <script src="https://unpkg.com/feather-icons"></script>
 
     <!-- Style -->
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
     <!-- Navbar start -->
@@ -26,9 +26,39 @@
       <a href="#" class="navbar-logo">Rahayu Chandra Bethania School</a>
       <div class="navbar-nav">
         <a href="#home">Home</a>
-        <a href="#about">Profile</a>
-        <a href="menu.php">Kesiswaan</a>
-        <a href="supplier.php">Informasi</a>
+
+        <div class="dropdown">
+        <a href="#">Profil</a>
+      <div class="dropdown-content">
+        <a href="#">Visi, Misi, dan Tujuan</a>
+        <a href="#">Sekolah</a>
+        <a href="#">Struktur Organisasi</a>
+      </div>
+      </div>
+        
+      <div class="dropdown">
+        <a href="#">Kesiswaan</a>
+      <div class="dropdown-content">
+        <a href="#">Pendaftaran Peserta Didik Baru</a>
+        <a href="#">E-Learning</a>
+        <a href="#">Ekstrakurikuler</a>
+        <a href="#">Konsultasi</a>
+        <a href="#">Pengumuman</a>
+        <a href="#">Kelulusan Online</a>
+        <a href="#">Tata Tertib Sekolah</a>
+        <a href="#">Pembayaran Siswa</a>
+      </div>
+      </div>
+
+        <div class="dropdown">
+        <a href="#">Informasi</a>
+      <div class="dropdown-content">
+        <a href="#">Bantuan Dana untuk Siswa</a>
+        <a href="#">Kalender Pendidikan</a>
+        <a href="#">Materi</a>
+      </div>
+      </div>
+
         <a href="#contact">Galeri</a>
         <a href="masuk.php">Login</a>
         <a href="gabung.php">Sign Up</a>
@@ -40,13 +70,14 @@
     <!-- Navbar end -->
 
     <!-- Landing page start -->
-    <section class="landing" id="home">
+    <section class="landing" id="landing">
       <main class="content">
         <h1>
           Rahayu Chandra Bethania School
         </h1>
         <p>
-          Selamat datang di website resmi <strong>Rahayu Chandra Bethania School</strong>, sebuah lembaga pendidikan yang berkomitmen untuk mencetak generasi unggul, berakhlak mulia, dan siap bersaing di era global. Melalui situs ini, kami menyajikan berbagai informasi penting seputar kegiatan sekolah, struktur organisasi, layanan akademik, serta akses login untuk guru dan staf. Semoga website ini dapat menjadi sarana komunikasi yang efektif antara sekolah dengan seluruh warga sekolah maupun masyarakat luas.
+          Selamat datang di website resmi <strong>Rahayu Chandra Bethania School</strong>, sebuah lembaga pendidikan yang berkomitmen untuk mencetak generasi unggul, berakhlak mulia, dan siap bersaing di era global. 
+          Melalui situs ini, kami menyajikan berbagai informasi penting seputar kegiatan sekolah, struktur organisasi, layanan akademik. Semoga website ini dapat menjadi sarana komunikasi yang efektif antara sekolah dengan seluruh warga sekolah maupun masyarakat luas.
         </p>
       </main>
     </section>
@@ -58,7 +89,9 @@
 
       <div class="row">
         <div class="about-img">
-          <img src="img/aboutus.jpg" alt="Tentang Kami" />
+        <img src="img/aboutus.jpg" alt="Tentang Kami" style="width: 300px; height: auto;" />
+
+
         </div>
         <div class="content">
           <h3>Kenapa harus Rahayu Chandra Bethania School?</h3>
